@@ -7,10 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/count.php" method="GET">
-        Enter Any String : <input type="text" name="s1"><br><br>
+    <form action="count.php" method="POST">
+        Enter Any String : <input type="text" name="s1"></br></br>
 
-        <input type="sumbit">
+        <button type="submit" >SUBMIT</button>
     </form>
 </body>
 </html>
