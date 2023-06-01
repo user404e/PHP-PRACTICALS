@@ -1,6 +1,6 @@
 <?php
 
-    $s1 = "ved";
+    $s1 = "Hello World";
 
     $count = 0;
     while($s1[$count] != null){

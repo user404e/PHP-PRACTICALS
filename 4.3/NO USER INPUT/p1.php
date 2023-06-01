@@ -1,7 +1,7 @@
 <?php
     $n1 = 0;
     $n2 = 1;
-    $term = 10;
+    $term = 5;
     $counter = 0;
     while ($counter < $term){
         echo ' '.$n1;
