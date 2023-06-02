@@ -1,12 +1,16 @@
 <?php
 
-    $s1 = "Hello World";
-
+    $s1 = "Hello World sd";
+    $word_count = 1;
     $count = 0;
     while($s1[$count] != null){
+        if($s1[$count] == " "){
+            $word_count++;
+        }
         $count++;
     }
 
-    echo "Total String Length : ". $count;
+    echo "Total String Length (including space) : ". $count . "<br>";
+    echo "Total Words : ". $word_count;
 
 ?>
