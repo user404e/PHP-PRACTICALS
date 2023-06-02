@@ -1,6 +1,6 @@
 <?php
 
-    $s1 = "Hello World sd";
+    $s1 = "Hello World PHP";
     $word_count = 1;
     $count = 0;
     while($s1[$count] != null){

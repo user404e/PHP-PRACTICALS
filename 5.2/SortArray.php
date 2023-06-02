@@ -10,6 +10,5 @@ for($a = 0; $a < count($arr); $a++) {
         }       
     }
 }
-
 print_r($arr);
 ?>
