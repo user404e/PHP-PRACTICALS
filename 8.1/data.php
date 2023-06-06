@@ -8,20 +8,12 @@
     $email = $_POST["email"];
     $address = $_POST["address"];
 
-    $conn = mysqli_connect("localhost","root","","employee");
-
-    if($conn){
-        $sql = "INSERT INTO data VALUES('".$name."','".$empid."','".$department."','".$position."','".$gender."','".$mobilenumber."','".$email."','".$address."');";
-
-        $result = mysqli_query($conn,$sql);
-        if($result){
-            echo "Values Inserted Successfully";
-        }
-        else{
-            echo "Values Cannot Be Inserted";
-        }
-    }
-    else{
-        echo "CANNOT CONNECT TO DATABASE";
-    }
+    echo "NAME = " . $name . "<br>";
+    echo "EMPLOYEE ID = " . $empid . "<br>";
+    echo "DEPARTMENT = " . $department . "<br>";
+    echo "POSITION = " . $position . "<br>";
+    echo "GENDER = " . $gender . "<br>";
+    echo "MOBILE NUMBER = " . $mobilenumber . "<br>";
+    echo "EMAIL = " . $email . "<br>";
+    echo "ADDRESS = " . $address . "<br>";
 ?>

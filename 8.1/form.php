@@ -5,6 +5,7 @@
     <h1>Employee Information</h1>
 
     <form action="data.php" method="POST">
+
         Name : <input type="text" name="name"> <br><br>
 
         Employee Id : <input type="text" name="empid"> <br><br>
