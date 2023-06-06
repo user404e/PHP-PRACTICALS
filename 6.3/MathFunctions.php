@@ -10,6 +10,6 @@
 
     echo "SINE OF 30 DEGREE = " . sin(deg2rad(30)) . "<br>"; // print sin of 30 degree.
     echo "COS OF 60 DEGREE = " . cos(deg2rad(60)) . "<br>"; // print cos of 60 degree.
-    echo "TAN OF 90 DEGREE = " . tan(deg2rad(45)) . "<br>"; // print tan of 45 degree.
+    echo "TAN OF 45 DEGREE = " . tan(deg2rad(45)) . "<br>"; // print tan of 45 degree.
 
 ?>
