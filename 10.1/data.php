@@ -4,7 +4,7 @@
     $department = $_POST["department"];
     $position = $_POST["position"];
     $gender = $_POST["gender"];
-    $mobilenumber = $_POST["mobilenumber"];
+    $mobilenumber = $_POST["mobileno"];
     $email = $_POST["email"];
     $address = $_POST["address"];
 
