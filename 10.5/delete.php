@@ -33,7 +33,6 @@
                 }
             }
         }
-        
     }
     else{
         echo "Cannot Connected Successfully";
