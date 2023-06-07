@@ -20,7 +20,7 @@
                     $updateresult = mysqli_query($conn,$updatesql);
 
                     if($updatesql){
-                        echo "PASSWORD CHANGES SUCCESSFULLY";
+                        echo "PASSWORD CHANGED SUCCESSFULLY";
                     }
                     else{
                         echo "SOMETHING WENT WRONG";
