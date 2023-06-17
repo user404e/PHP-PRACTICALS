@@ -16,10 +16,10 @@ class demo2 extends demo1
 	}
 }
 
-$demo1 = new demo1();
-echo $demo1->greet();
+$d1 = new demo1();
+echo $d1->greet();
 
-$demo2 = new demo2();
-echo $demo2->greet();
+$d2 = new demo2();
+echo $d2->greet();
 
 ?>
