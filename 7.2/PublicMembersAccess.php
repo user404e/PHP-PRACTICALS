@@ -1,7 +1,7 @@
 <?php
     class demo{
-        var $num = 10;
-        var $s1 = "Hello";
+        public $num = 10;
+        public $s1 = "Hello";
 
         function printdata(){
             echo $this->s1;
